@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
             <div className="relative z-10 bg-indigo-800/10 min-h-screen flex flex-col">
               <Navbar />
 
-              <main className="flex-1 max-w-8xl mx-4 sm:mx-8 md:mx-12 lg:mx-64 mt-8 sm:mt-16 md:mt-24 lg:mt-32 mb-4 sm:mb-8 md:mb-12 lg:mb-16">
+              <main className="flex-1 max-w-8xl mx-4 sm:mx-8 md:mx-12 lg:mx-64 mt-16 md:mt-24 lg:mt-32 mb-8 md:mb-12 lg:mb-16">
                 {children}
               </main>
 
