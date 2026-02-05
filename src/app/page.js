@@ -11,11 +11,21 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 2000) // 1.5 detik (sweet spot)
+    const hasLoaded = sessionStorage.getItem("homeLoaded")
 
-    return () => clearTimeout(timer)
+    if (hasLoaded) {
+      // Sudah pernah buka Home di tab ini
+      setLoading(false)
+    } else {
+      // Pertama kali buka / refresh
+      sessionStorage.setItem("homeLoaded", "true")
+
+      const timer = setTimeout(() => {
+        setLoading(false)
+      }, 2000)
+
+      return () => clearTimeout(timer)
+    }
   }, [])
 
   if (loading) return <Loader />
