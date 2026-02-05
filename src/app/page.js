@@ -1,9 +1,25 @@
+"use client"
+
+import { useEffect, useState } from "react"
 import Hero from "../components/home/hero/hero";
 import AboutMe from "@/components/home/aboutMe/aboutMe";
 import Skills from "@/components/home/skillSet/skillSet";
 import Tools from "@/components/home/tools/tools";
+import Loader from "@/components/InitialLoader";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 2000) // 1.5 detik (sweet spot)
+
+    return () => clearTimeout(timer)
+  }, [])
+
+  if (loading) return <Loader />
+
   return (
     <div className="relative z-10">
       <Hero />
