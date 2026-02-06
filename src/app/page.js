@@ -6,6 +6,7 @@ import AboutMe from "@/components/home/aboutMe/aboutMe";
 import Skills from "@/components/home/skillSet/skillSet";
 import Tools from "@/components/home/tools/tools";
 import Loader from "@/components/InitialLoader";
+import Contact from "@/components/home/contact/contact";
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -36,6 +37,7 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Tools />
+      <Contact/>
     </div>
   );
 }
