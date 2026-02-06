@@ -11,7 +11,7 @@ export default function Tools() {
   return (
     <section id="tools">
       <div className="mx-auto max-w-5xl px-6">
-        <h2 className="mb-4 text-center text-3xl font-bold">
+        <h2 className="mb-4 text-center text-xl md:text-2xl lg:text-3xl font-bold">
           Tools
         </h2>
 
