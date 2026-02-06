@@ -8,7 +8,6 @@ export default function Skills() {
     { name: "React.Js", icon: "devicon-react-original colored" },
     { name: "Next.Js", icon: "devicon-nextjs-plain" },
     { name: "Express.Js", icon: "devicon-express-original" },
-    { name: "Python", icon: "devicon-python-plain colored" },
     { name: "Node.Js", icon: "devicon-nodejs-plain colored" },
     { name: "MySQL", icon: "devicon-mysql-plain colored" },
     { name: "Tailwind CSS", icon: "devicon-tailwindcss-original colored" },
