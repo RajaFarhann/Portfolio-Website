@@ -19,7 +19,7 @@ export default function AboutMe () {
                 />
                 </div>
                 {/* TEXT */}
-                <div className="text-justify text-base md:text-lg lg:text-xl basis-2/3">
+                <div className="text-justify text-sm md:text-md lg:text-xl basis-2/3">
                     <p>I&apos;m an Informatics Engineering graduate from Politeknik Negeri Batam with a strong interest in software development. I enjoy building intuitive and reliable user experiences across mobile and web platforms, with a focus on clean architecture and maintainable code.</p>
                     <p className="pt-2">Beyond technical skills, I value leadership and collaboration. My experience as a chairman of a student organization has shaped the way I approach teamwork, communication, and problem-solving.</p>
                 </div>
