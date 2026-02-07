@@ -7,11 +7,26 @@ export const projects = [
       { name: "Kotlin", icon: "devicon-kotlin-plain colored" },
       { name: "Jetpack Compose", icon: "devicon-jetpackcompose-plain colored" },
       { name: "MySQL", icon: "devicon-mysql-plain colored" },
+      { name: "Node.Js", icon: "devicon-nodejs-plain colored" },
       { name: "Express.Js", icon: "devicon-express-original" },
     ],
     image: "/projects/InfiniteTrack.jpg",
     github: "",
     link: "https://exhibition-infinite-learning.super.site/1624fb0d7d0a8061a9a6cf20feb151b6",
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website designed to introduce myself, showcase selected projects, and highlight my skills and experience. This website also provides access to my CV and contact information, allowing recruiters and collaborators to easily explore my work and get in touch.",
+    tech: [
+      { name: "Javascript", icon: "devicon-javascript-plain colored" },
+      { name: "React.Js", icon: "devicon-react-original colored" },
+      { name: "Next.Js", icon: "devicon-nextjs-plain" },
+      { name: "Tailwind CSS", icon: "devicon-tailwindcss-original colored" },
+    ],
+    image: "/projects/WebsitePortfolio.png",
+    github: "https://github.com/RajaFarhann/Portfolio-Website",
+    link: "https://rajafarhan.vercel.app/",
   },
   {
     title: "Sporking",
@@ -35,6 +50,19 @@ export const projects = [
     ],
     image: "/projects/SavorCraft.png",
     github: "https://github.com/Wirasena-IL/SavorCraft",
+    link: "",
+  },
+  {
+    title: "Guide Me: Tour Guide Application",
+    description:
+      "A application designed to deliver comprehensive information on tourist attractions in Batam City. The application aims to assist both domestic and international tourists in navigating to destinations via their smartphones, ensuring an accessible and seamless travel experience.",
+    tech: [
+      { name: "Flutter", icon: "devicon-flutter-plain colored" },
+      { name: "Dart", icon: "devicon-dart-plain colored" },
+      { name: "MySQL", icon: "devicon-mysql-plain colored" },
+    ],
+    image: "/projects/GuideMe.png",
+    github: "",
     link: "",
   },
 ]
