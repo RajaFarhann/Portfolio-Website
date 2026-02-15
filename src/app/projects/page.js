@@ -1,8 +1,8 @@
 import ProjectCard from "@/components/projects/projectCard"
-import { projects } from "@/components/projects/projectsData"
+import { projects } from "@/data/projectsData"
 
 export const metadata = {
-  title: "Projects | Raja Muhammad Farhan",
+  title: "Projects | Raja Muhammad Farhan Zahputra",
 }
 
 export default function Projects() {
