@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FiFolder, FiFileText, FiHome } from "react-icons/fi"
+import { TbCertificate } from "react-icons/tb";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -21,6 +22,7 @@ export default function Navbar() {
             { label: "Home", href: "/", icon: <FiHome size={20} /> },
             { label: "Projects", href: "/projects", icon: <FiFolder size={18} /> },
             { label: "Resume", href: "/resume", icon: <FiFileText size={18} /> },
+            { label: "Certificates", href: "/certificates", icon: <TbCertificate size={20} /> },
           ].map((item) => (
             <li key={item.label}>
               <Link
@@ -69,6 +71,11 @@ export default function Navbar() {
             <li>
               <Link onClick={() => setOpen(false)} href="/resume">
                 Resume
+              </Link>
+            </li>
+            <li>
+              <Link onClick={() => setOpen(false)} href="/certificates">
+                Certificates
               </Link>
             </li>
           </ul>
