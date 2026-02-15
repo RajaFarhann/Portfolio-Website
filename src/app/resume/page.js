@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Resume | Raja Muhammad Farhan Zahputra",
+}
+
 export default function Resume() {
   return (
     <section className="min-h-screen text-white">
